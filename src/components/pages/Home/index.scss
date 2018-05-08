@@ -1,0 +1,44 @@
+.home{
+    .banners {
+        .swiper-slide{
+            height: 2.1094rem;
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: hotpink;
+        }
+    }
+    .content{
+        padding-bottom: 0.6rem;
+        .goods{
+            width: 100%;
+            padding: 0 5px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .goods-item{
+                width: 1.75rem;
+                height: 2.545rem;
+                margin-top: 10px;
+                border:1px solid #d1d1d1;
+
+                img{
+                    width: 100%;
+                    height: 1.875rem;
+                }
+                p{
+                    width: 100%;
+                    height: 0.34rem;
+                    padding-left: 5px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                .price {
+                    color:#ff5400;
+                }
+            }
+        }
+    }
+}
